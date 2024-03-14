@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: inter;
+    src: url(/assets/Fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+:root {
+    --grey5: #27282A;
+    --grey4: #2B2C2E;
+    --grey3: #3D3E41;
+    --grey2: #48494C;
+    --grey1: #848689;
+    --grey0: #9FA2A7;
+}
+.body {
+    font-family: inter;
+}
+
+
+/* ---- HEADER ---- */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-around;
+    font-family: inter;
+    padding: 20px;
+    padding-bottom: 80px;
+}
+.header div:nth-of-type(1) a {
+    text-decoration: none;  
+    color: #27282A;
+    padding: 0 10px;
+}
+.header div:nth-of-type(3) a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px 50px;
+    border-radius: 5px;
+}
+
+/* ----- HOME ---- */
+.home p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 40px;
+}
+.home img {
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: auto;
+}
+
+/* ---- FLATRATE ----- */
+.flatrate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 100px;
+}
+.flatrate div:nth-of-type(1) p {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    width: 700px;
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.flatrate div:nth-of-type(2) {
+   padding: 0px 30px 20px 50px;
+}
+.flatrate div:nth-of-type(2) p:nth-of-type(1) {
+    font-family: inter;
+    font-size: 60px;
+    font-weight: 700;
+}
+.flatrate div:nth-of-type(2) p:nth-of-type(2) {
+    font-family: inter;
+    font-size: 20px;
+    color: var(--grey0);
+    line-height: 22px;
+    width: 200px;
+}
+
+/* ----- DELI ----- */
+.deli {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    font-family: inter;
+}
+.deli img {
+    width: 100vh;
+}
+.deli h2 {
+    font-size: 55px;
+    padding-bottom: 60px;
+}
+.deli h5 {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.deli p {
+    color: var(--grey1);
+    padding-bottom: 20px;
+}
+
+
+/* ---- WORK ----- */
+.work {
+    background: url(/assets/Fotos/pic3.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #f0f0f0;
+    margin: 0 100px;
+   
+}
+.work div {
+ width: 380px;
+}
+.work h2 {
+   font-size: 40px; 
+   color: var(--grey5);
+   font-family: inter;
+   font-weight: 700;
+   padding: 30px 0 0 40px;
+}
+.work p {
+    font-family: inter;
+    font-size: 13px;
+    color: var(--grey1);
+    padding: 10px 0 0 40px;
+}
+.work p:nth-of-type(1) {
+    padding-left: 70px;
+}
+.work p:nth-of-type(2) {
+    padding-bottom: 30px;
+}
+
+
+/* ---- CRITIQUE ----- */
+
+.crit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 100px;
+    line-height: 30px;
+    font-family: inter;
+}
+.crit h2 {
+    padding-bottom: 40px;
+    color: var(--grey5);
+    font-size: 50px;
+}
+.crit p {
+    font-size: 15px;
+    color: var(--grey0);
+}
+
+/* ---- CONVERSION ----- */
+
+.con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inter;
+}
+.con img {
+    width: 300px;
+    float: right;
+    position: absolute;
+    padding-top: 120px;
+    z-index: 2;
+    margin-left: 400px;
+    margin-top: 75px;
+   
+}
+.con h1 {
+    font-size: 200px;
+    color: #e7e7e7;
+    font-weight: 500;
+    margin-bottom:-35px ;
+}
+.con p {
+    line-height: 30px;
+    color: #c9c8c8;
+}
+.con div {
+    position: relative;
+    z-index: 1;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---- QUESTION ----- */
+
+.quest {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    padding-top: 100px;
+}
+.quest div {
+  display: inline-flex;
+}
+.quest h2 {
+    font-size: 40px;
+    font-family: inter;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.quest img {
+    width: 50px;
+}
+.quest p {
+    display: flex;
+    font-family: inter;
+    font-size: 12px;
+    padding-right: 5px;
+    align-items: flex-end;
+}
+.quest a {
+    display: flex;
+    font-family: inter;
+    font-size: 12px;
+    padding-right: 5px;
+    align-items: flex-end;
+}
+.quest div:nth-of-type(2) {
+    padding-bottom: 50px;
+}
